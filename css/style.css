@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F9EFED;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*
+**** Layout *****
+*/
+
+/* Barra cabeçalho */
+#area_cabeçalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area_logo, #area_menu {
+    padding: 10px;
+}
+
+/* Barra Lateral */
+
+#barra_lateral {
+    height: auto;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.aside_nav {
+
+}
+
+.side_nav {
+    background-color: #FFF;
+    padding: 15px;
+    width: 150px;
+    border-radius: 20px;
+    
+}
+
+.side_nav ul li {
+    list-style: none;
+}
+
+
+/* Corpo principal */
+
+.container {
+    display: flex;
+    justify-content: center;
+  
+}
+.container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#corpo_principal {
+    
+}
+
+.textos_posts {
+    width: 80ch;
+}
+
+
+/*
+**** Formatações menu ****
+*/
+
+/* Menu superior */
+#area_menu a {
+    text-decoration: none;
+}
+
+#area_menu a:link, #area_menu a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#area_menu a:hover {
+    color: #f7b600;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+/* Barra lateral */
+
+.side_nav a {
+    text-decoration: none;
+    display: block;
+}
+
+.side_nav a:link, .side_nav a:visited {
+    color: #f7b600;
+    padding: 8px 8px;
+}
+
+.side_nav a:hover {
+    color: #FFF;
+    background-color: #4e4e4e;
+    border-radius: 10px;
+}
+
+/*
+**** Formatações em geral ****
+*/
+
+.logo {
+    color: #4e4e4e;
+    font: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+.imagens {
+    margin: 10px;
+}
+
