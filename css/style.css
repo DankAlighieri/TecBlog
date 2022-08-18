@@ -83,6 +83,10 @@ body {
     text-align: justify;
 }
 
+.formulario {
+    width: 500px;
+}
+
 /* Barra Lateral */
 
 #barra_lateral {
