@@ -64,6 +64,13 @@ body {
     margin-top: 20px;
 }
 
+
+#titulo_formulario {
+    color: #f7b600;
+    text-align: center;
+    padding: 10px;
+}
+
 #subtitulo_posts {
     margin-left: 20px;
     margin-bottom: 10px;
@@ -83,21 +90,37 @@ body {
     text-align: justify;
 }
 
-.formulario {
-    width: 500px;
+
+#formulario {
+    padding: 10px;
+    width: fit-content;
 }
 
 /* Barra Lateral */
 
-#barra_lateral {
-    height: auto;
-    margin-top: 10px;
-    padding: 15px;
-}
-
 .aside_nav {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2em;
 }
+
+#barra_lateral {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    align-items: center;
+}
+
+.side_nav {
+    background-color: #FFF;
+    padding: 15px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
 /* Barra superior lateral direita */
 
 .new_post {
@@ -112,20 +135,29 @@ body {
 
 /* Barra inferior lateral direita */
 
-.side_nav {
-    background-color: #FFF;
-    padding: 15px;
-    width: 150px;
-    border-radius: 20px;
-    
-}
 
 .side_nav ul li {
     list-style: none;
 }
 
+/* BARRA CONTATOS */
+
+.side_nav_contatos {
+    background-color: #FFF;
+    padding: 15px;
+    width: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
 
 
+.side_nav_contatos ul li {
+    list-style: none;
+}
+
+#img_contato {
+    width:35px;
+}
 /*
 **** Formatações menu ****
 */
