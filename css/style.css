@@ -15,7 +15,7 @@ body {
 
 /* Barra cabeçalho */
 #area_cabeçalho {
-    background-color: #f7b600;
+    background-color: #0094f7;
     padding: 15px;
     text-align: center;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 #titulo_posts a:link, #titulo_posts a:visited {
-    color: #f7b600;
+    color: #0094f7;
 } 
 
 #titulo_posts a:hover {
@@ -173,7 +173,7 @@ body {
 }
 
 #area_menu a:hover {
-    color: #f7b600;
+    color: #0094f7;
     background-color: #FFF;
     border-radius: 10px;
 }
@@ -192,13 +192,13 @@ body {
 }
 
 .side_nav a:link, .side_nav a:visited {
-    color: #f7b600;
+    color: #0094f7;
     padding: 8px 8px;
 }
 
 .side_nav a:hover {
-    color: #FFF;
-    background-color: #4e4e4e;
+    color: #0094f7;
+    text-decoration: underline;
     border-radius: 10px;
 }
 
@@ -207,7 +207,7 @@ body {
 */
 
 .logo {
-    color: #3a3a3a;
+    color: #ffffff;
     font: 2.5em;
 }
 
