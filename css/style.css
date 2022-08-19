@@ -74,10 +74,17 @@ body {
     padding: 10px;
 }
 
-#subtitulo_posts {
+#titulo_artigos {
+    color: #0094f7;
+    margin-left: 20px;
+    margin-bottom: 1%;
+}
+
+#subtitulo_posts, #subtitulo_artigos {
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
 
 .imagens {
     display: flex;
@@ -95,13 +102,37 @@ body {
     border-radius: 20px;
 }
 
-.textos_posts {
+.textos_posts, .textos_artigo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 1%;
     margin-left: 20px;
     width: 95ch;
     text-align: justify;
 }
 
+.lista_artigos {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#links_artigos a {
+    justify-content: center;
+    text-align: end;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#links_artigos a:link, #links_artigos a:visited {
+    color: #0094f7;
+}
+
+#links_artigos a:hover {
+    text-decoration: underline;
+}
 
 #formulario {
     padding: 10px;
