@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F9EFED;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*
+**** Layout *****
+*/
+
+/* Barra cabecalho */
+
+#area_cabecalho {
+    background-color: #1014df00;
+    padding: 15px;
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+
+/*Logins*/
+
+#login{
+    text-align: center;
+}
+
+#links {
+    text-decoration: none;
+    color: black;
+}
