@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+/*AREA CABECALHO*/
+#area_cabecalho{
+    padding: 10px;
+    background: rgb(120, 82, 209);
+    display: flex;
+    flex-direction: row;
+}
+
+a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+.login{
+    margin-left: auto;
+}
+
+.cadastro{
+    margin-left: 1%;
+}
+
+
+/*AREA CONTEUDO*/
+#container_main{
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo, #conteudo2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    padding: 7%;
+    align-items: center;
+}
+
+.conteudo_1{
+
+}
+
+/*
+*** FOOTER ***
+*/
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#footer1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    padding: 7%;
+    align-items: center;
+}
