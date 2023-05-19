@@ -94,6 +94,22 @@ body {
     width: 800px;
 }
 
+.imagens_dupla_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens_dupla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    width: 400px;
+    border-radius: 20px;
+}
+
 .video {
     display: flex;
     justify-content: center;
